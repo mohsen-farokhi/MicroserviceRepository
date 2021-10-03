@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ApplicationApi.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ApplicationApi.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationApi.Resources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApplicationApi.Resources/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationApi.Resources/ApplicationApi.Resources.csproj",
+      "msbuildProject": "../ApplicationApi.Resources/ApplicationApi.Resources.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ApplicationApi.Resources >= 1.0.0",
+      "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\m.farokhi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi.Domain\\ApplicationApi.Domain.csproj",
+      "projectName": "ApplicationApi.Domain",
+      "projectPath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi.Domain\\ApplicationApi.Domain.csproj",
+      "packagesPath": "C:\\Users\\m.farokhi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\m.farokhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\m.farokhi\\Desktop\\MyNuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://registry.efarda.ir/repository/nuget-efarda-group/": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi.Resources\\ApplicationApi.Resources.csproj": {
+              "projectPath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi.Resources\\ApplicationApi.Resources.csproj"
+            },
+            "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj": {
+              "projectPath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

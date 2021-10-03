@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "zfW+UgfMX8wEa/cA10T/t6i9hbRLZx9Al2D/JjuwZGHaaBr2VFQrbVgek41+H+8CeWBzR5kzVezXEoe6ckDruQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi.ViewModels\\ApplicationApi.ViewModels.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
