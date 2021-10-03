@@ -2,6 +2,29 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Farokhi.Microservice.Framework/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentResults": "2.5.0",
+          "MediatR": "9.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.10"
+        },
+        "compile": {
+          "lib/net5.0/Framework.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Framework.dll": {}
+        }
+      },
+      "FluentResults/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FluentResults.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentResults.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -9,6 +32,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {
@@ -1525,7 +1557,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "ApplicationApi.Resources": "1.0.0",
-          "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj": "1.0.0"
+          "Farokhi.Microservice.Framework": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ApplicationApi.Domain.dll": {}
@@ -1548,7 +1580,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj": "1.0.0"
+          "Farokhi.Microservice.Framework": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ApplicationApi.ViewModels.dll": {}
@@ -1560,6 +1592,35 @@
     }
   },
   "libraries": {
+    "Farokhi.Microservice.Framework/1.0.0": {
+      "sha512": "saYW+8FE/x/x4scX/vMrbCTybUmMrQ5uGomN8i7Ud1r9F8Bd7lpVQbCxkR+dUUXeOMt7JGkShDUvqGySqHCm/g==",
+      "type": "package",
+      "path": "farokhi.microservice.framework/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "farokhi.microservice.framework.1.0.0.nupkg.sha512",
+        "farokhi.microservice.framework.nuspec",
+        "lib/net5.0/Framework.dll"
+      ]
+    },
+    "FluentResults/2.5.0": {
+      "sha512": "qjPwIRf1f0lHMAWPHQo2SkErIUbisjfNqv8Hem3g0qw7Q000T8cSh8H+/07sviRU63yI5XveBaJM/GrPsI2fNA==",
+      "type": "package",
+      "path": "fluentresults/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentResults-Icon-128.png",
+        "fluentresults.2.5.0.nupkg.sha512",
+        "fluentresults.nuspec",
+        "lib/net45/FluentResults.dll",
+        "lib/net461/FluentResults.dll",
+        "lib/netstandard1.1/FluentResults.dll",
+        "lib/netstandard2.0/FluentResults.dll",
+        "lib/netstandard2.1/FluentResults.dll"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -1574,6 +1635,24 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -5845,7 +5924,6 @@
     "net5.0": [
       "ApplicationApi.Domain >= 1.0.0",
       "ApplicationApi.ViewModels >= 1.0.0",
-      "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.10"
@@ -5885,9 +5963,6 @@
             },
             "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi.ViewModels\\ApplicationApi.ViewModels.csproj": {
               "projectPath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi.ViewModels\\ApplicationApi.ViewModels.csproj"
-            },
-            "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj": {
-              "projectPath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj"
             }
           }
         }
@@ -5935,16 +6010,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

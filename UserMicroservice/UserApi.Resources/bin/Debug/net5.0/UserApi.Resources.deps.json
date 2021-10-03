@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UserApi.Resources/1.0.0": {
+        "runtime": {
+          "UserApi.Resources.dll": {}
+        },
+        "resources": {
+          "fa-IR/UserApi.Resources.resources.dll": {
+            "locale": "fa-IR"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserApi.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

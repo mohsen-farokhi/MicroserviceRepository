@@ -16,7 +16,6 @@
   <ItemGroup>
     <ProjectReference Include="..\ApplicationApi.Domain\ApplicationApi.Domain.csproj" />
     <ProjectReference Include="..\ApplicationApi.ViewModels\ApplicationApi.ViewModels.csproj" />
-    <ProjectReference Include="..\Framework\Framework.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -29,11 +29,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj": {
-                "projectPath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\Framework\\Framework.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -45,6 +41,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Farokhi.Microservice.Framework": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pgBuxZmVasaILm+qQWV932SRVe10xHcxo894NfeFoK0QgjsXeyFoxImcNgZ5RFH59P2D4ULAn0zDrvnC1Z+csA==",
+  "dgSpecHash": "9zD++sjCWr46G9SvEmwtzMYT0NbFU0VHMRE3gFoKVsB5tKPe/rCMeGLOVs5uIcZtctpSXsicfo6DxGtpAf0wlg==",
   "success": false,
   "projectFilePath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi\\ApplicationApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\m.farokhi\\.nuget\\packages\\farokhi.microservice.framework\\1.0.0\\farokhi.microservice.framework.1.0.0.nupkg.sha512",
+    "C:\\Users\\m.farokhi\\.nuget\\packages\\fluentresults\\2.5.0\\fluentresults.2.5.0.nupkg.sha512",
     "C:\\Users\\m.farokhi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\m.farokhi\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\m.farokhi\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

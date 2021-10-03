@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zboHOk0GxTEAYrOzTGpBpIm3Lag7j1Yxty9H8Rp8QsVRZABc1VdHcdpMW1Mq6xPsiUEkAhtrGwbqM19zRSHdqQ==",
+  "dgSpecHash": "4dFKDR87gGAT1ehRZbkg+XqPIB6AxKwZCbrPsamYrIhEl4DvS9tiHh2ofgIVHfhiqjrH1V9DmQBJ/FnWw0E8Uw==",
   "success": false,
   "projectFilePath": "C:\\Users\\m.farokhi\\source\\Repos\\MicroserviceRepository\\ApplicationMicroservice\\ApplicationApi.Application\\ApplicationApi.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\m.farokhi\\.nuget\\packages\\farokhi.microservice.framework\\1.0.0\\farokhi.microservice.framework.1.0.0.nupkg.sha512",
+    "C:\\Users\\m.farokhi\\.nuget\\packages\\fluentresults\\2.5.0\\fluentresults.2.5.0.nupkg.sha512",
+    "C:\\Users\\m.farokhi\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\m.farokhi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\m.farokhi\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\m.farokhi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

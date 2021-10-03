@@ -13,3 +13,15 @@ C:\Users\m.farokhi\source\Repos\MicroserviceSolution\ApplicationApi.ViewModels\o
 C:\Users\m.farokhi\source\Repos\MicroserviceSolution\ApplicationApi.ViewModels\obj\Debug\net5.0\ApplicationApi.ViewModels.dll
 C:\Users\m.farokhi\source\Repos\MicroserviceSolution\ApplicationApi.ViewModels\obj\Debug\net5.0\ref\ApplicationApi.ViewModels.dll
 C:\Users\m.farokhi\source\Repos\MicroserviceSolution\ApplicationApi.ViewModels\obj\Debug\net5.0\ApplicationApi.ViewModels.pdb
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\bin\Debug\net5.0\ApplicationApi.ViewModels.deps.json
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\bin\Debug\net5.0\ApplicationApi.ViewModels.dll
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\bin\Debug\net5.0\ref\ApplicationApi.ViewModels.dll
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\bin\Debug\net5.0\ApplicationApi.ViewModels.pdb
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\obj\Debug\net5.0\ApplicationApi.ViewModels.csproj.AssemblyReference.cache
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\obj\Debug\net5.0\ApplicationApi.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\obj\Debug\net5.0\ApplicationApi.ViewModels.AssemblyInfoInputs.cache
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\obj\Debug\net5.0\ApplicationApi.ViewModels.AssemblyInfo.cs
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\obj\Debug\net5.0\ApplicationApi.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\obj\Debug\net5.0\ApplicationApi.ViewModels.dll
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\obj\Debug\net5.0\ref\ApplicationApi.ViewModels.dll
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\ApplicationMicroservice\ApplicationApi.ViewModels\obj\Debug\net5.0\ApplicationApi.ViewModels.pdb

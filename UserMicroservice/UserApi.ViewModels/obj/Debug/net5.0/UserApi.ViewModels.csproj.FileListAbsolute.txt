@@ -1,0 +1,12 @@
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\obj\Debug\net5.0\UserApi.ViewModels.csproj.AssemblyReference.cache
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\obj\Debug\net5.0\UserApi.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\obj\Debug\net5.0\UserApi.ViewModels.AssemblyInfoInputs.cache
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\obj\Debug\net5.0\UserApi.ViewModels.AssemblyInfo.cs
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\obj\Debug\net5.0\UserApi.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\bin\Debug\net5.0\UserApi.ViewModels.deps.json
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\bin\Debug\net5.0\UserApi.ViewModels.dll
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\bin\Debug\net5.0\ref\UserApi.ViewModels.dll
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\bin\Debug\net5.0\UserApi.ViewModels.pdb
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\obj\Debug\net5.0\UserApi.ViewModels.dll
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\obj\Debug\net5.0\ref\UserApi.ViewModels.dll
+C:\Users\m.farokhi\source\Repos\MicroserviceRepository\UserMicroservice\UserApi.ViewModels\obj\Debug\net5.0\UserApi.ViewModels.pdb

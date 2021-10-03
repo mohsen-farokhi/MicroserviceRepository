@@ -34,7 +34,6 @@
       "ApplicationApi/1.0.0": {
         "dependencies": {
           "ApplicationApi.Application": "1.0.0",
-          "ApplicationApi.Persistence": "1.0.0",
           "ApplicationApi.ViewModels": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
@@ -327,6 +326,22 @@
         },
         "compile": {
           "ApplicationApi.dll": {}
+        }
+      },
+      "Farokhi.Microservice.Framework/1.0.0": {
+        "dependencies": {
+          "FluentResults": "2.5.0",
+          "MediatR": "9.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.10"
+        },
+        "runtime": {
+          "lib/net5.0/Framework.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Framework.dll": {}
         }
       },
       "FluentResults/2.5.0": {
@@ -1424,8 +1439,7 @@
       "ApplicationApi.Application/1.0.0": {
         "dependencies": {
           "ApplicationApi.Persistence": "1.0.0",
-          "ApplicationApi.ViewModels": "1.0.0",
-          "Framework": "1.0.0"
+          "ApplicationApi.ViewModels": "1.0.0"
         },
         "runtime": {
           "ApplicationApi.Application.dll": {}
@@ -1437,7 +1451,7 @@
       "ApplicationApi.Domain/1.0.0": {
         "dependencies": {
           "ApplicationApi.Resources": "1.0.0",
-          "Framework": "1.0.0"
+          "Farokhi.Microservice.Framework": "1.0.0"
         },
         "runtime": {
           "ApplicationApi.Domain.dll": {}
@@ -1450,7 +1464,6 @@
         "dependencies": {
           "ApplicationApi.Domain": "1.0.0",
           "ApplicationApi.ViewModels": "1.0.0",
-          "Framework": "1.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
         },
@@ -1476,26 +1489,13 @@
       },
       "ApplicationApi.ViewModels/1.0.0": {
         "dependencies": {
-          "Framework": "1.0.0"
+          "Farokhi.Microservice.Framework": "1.0.0"
         },
         "runtime": {
           "ApplicationApi.ViewModels.dll": {}
         },
         "compile": {
           "ApplicationApi.ViewModels.dll": {}
-        }
-      },
-      "Framework/1.0.0": {
-        "dependencies": {
-          "FluentResults": "2.5.0",
-          "MediatR": "9.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.10"
-        },
-        "runtime": {
-          "Framework.dll": {}
-        },
-        "compile": {
-          "Framework.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3192,6 +3192,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Farokhi.Microservice.Framework/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-saYW+8FE/x/x4scX/vMrbCTybUmMrQ5uGomN8i7Ud1r9F8Bd7lpVQbCxkR+dUUXeOMt7JGkShDUvqGySqHCm/g==",
+      "path": "farokhi.microservice.framework/1.0.0",
+      "hashPath": "farokhi.microservice.framework.1.0.0.nupkg.sha512"
+    },
     "FluentResults/2.5.0": {
       "type": "package",
       "serviceable": true,
@@ -3955,11 +3962,6 @@
       "sha512": ""
     },
     "ApplicationApi.ViewModels/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Framework/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
